@@ -27,7 +27,7 @@ def hello_world():
 def coin():
     x = random.randint(1, 2)
     if x == 1:
-        return f'<img src="https://avatars.mds.yandex.net/get-mpic/6780724/img_id7589828694213209733.jpeg/orig">'
+        return f'<img src="https://avatars.mds.yandex.net/get-mpic/6780724/img_id7589828694213209733.jpeg/orig" width="600">'
     else:
         return f'<img src="https://coins-shop-orel.ru/upload/361/360649_med.jpg">'
 
